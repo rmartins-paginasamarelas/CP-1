@@ -1,8 +1,16 @@
 # Define the file name
 file_name = "estelas.txt"
+file_name_fonemas = "tabelacaracteresfonemas.txt"
 
 # Initialize a dictionary to store the count of sextets
 sextet_counts = {}
+
+# Read the file of phonemes and store the values in a dictionary
+fonemas = {}
+with open(file_name_fonemas, 'r') as file_fonemas:
+    for line in file_fonemas:
+        numero, fonema = line.strip().split(':')
+        fonemas[numero] = fonema
 
 # Read the file and process each line
 with open(file_name, 'r') as file:
@@ -13,7 +21,12 @@ with open(file_name, 'r') as file:
         # Split the line into sextets and count occurrences
         sextets = cleaned_line.split('-')
         for i in range(len(sextets) - 5):
-            sextet = f"{sextets[i]}-{sextets[i+1]}-{sextets[i+2]}-{sextets[i+3]}-{sextets[i+4]}-{sextets[i+5]}"
+            sextet = f"{fonemas.get(sextets[i], '')}({sextets[i]})-" \
+                     f"{fonemas.get(sextets[i+1], '')}({sextets[i+1]})-" \
+                     f"{fonemas.get(sextets[i+2], '')}({sextets[i+2]})-" \
+                     f"{fonemas.get(sextets[i+3], '')}({sextets[i+3]})-" \
+                     f"{fonemas.get(sextets[i+4], '')}({sextets[i+4]})-" \
+                     f"{fonemas.get(sextets[i+5], '')}({sextets[i+5]})"
             if len(sextet) > 11:
                 sextet_counts[sextet] = sextet_counts.get(sextet, 0) + 1
 

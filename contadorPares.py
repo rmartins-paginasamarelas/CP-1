@@ -1,5 +1,15 @@
-# Define the file name
+# Define the file names
 file_name = "estelas.txt"
+phonetic_file = "tabelacaracteresfonemas.txt"
+
+# Read the phonetic values from the file
+phonetic_values = {}
+with open(phonetic_file, 'r') as phonetic_file:
+    for line in phonetic_file:
+        parts = line.strip().split(':')
+        if len(parts) == 2:
+            character_number, phonetic_value = parts[0], parts[1]
+            phonetic_values[character_number] = phonetic_value.strip()
 
 # Initialize a dictionary to store the count of pairs
 pair_counts = {}
@@ -13,8 +23,15 @@ with open(file_name, 'r') as file:
         # Split the line into pairs and count occurrences
         pairs = cleaned_line.split('-')
         for i in range(len(pairs) - 1):
-            pair = f"{pairs[i]}-{pairs[i + 1]}"
-            if len(pair) > 3:
+            first_character, second_character = pairs[i], pairs[i + 1]
+
+            # Get the phonetic values for the characters
+            first_phonetic = phonetic_values.get(first_character, '')
+            second_phonetic = phonetic_values.get(second_character, '')
+
+            # Combine the pair with phonetic values
+            pair = f"{first_character}({first_phonetic})-{second_character}({second_phonetic})"
+            if len(pair) > 5:
                 pair_counts[pair] = pair_counts.get(pair, 0) + 1
 
 # Sort the pairs by the number of occurrences

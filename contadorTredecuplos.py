@@ -1,8 +1,16 @@
 # Define o nome do arquivo
 nome_arquivo = "estelas.txt"
+nome_arquivo_fonemas = "tabelacaracteresfonemas.txt"
 
 # Inicializa um dicionário para armazenar a contagem de tredecuplos
 contagem_tredecuplos = {}
+
+# Lê o arquivo de fonemas e armazena os valores em um dicionário
+fonemas = {}
+with open(nome_arquivo_fonemas, 'r') as arquivo_fonemas:
+    for linha in arquivo_fonemas:
+        numero, fonema = linha.strip().split(':')
+        fonemas[numero] = fonema
 
 # Lê o arquivo e processa cada linha
 with open(nome_arquivo, 'r') as arquivo:
@@ -13,7 +21,19 @@ with open(nome_arquivo, 'r') as arquivo:
         # Divide a linha em tredecuplos e conta as ocorrências
         tredecuplos = linha_limpa.split('-')
         for i in range(len(tredecuplos) - 12):
-            tredecuplo = f"{tredecuplos[i]}-{tredecuplos[i+1]}-{tredecuplos[i+2]}-{tredecuplos[i+3]}-{tredecuplos[i+4]}-{tredecuplos[i+5]}-{tredecuplos[i+6]}-{tredecuplos[i+7]}-{tredecuplos[i+8]}-{tredecuplos[i+9]}-{tredecuplos[i+10]}-{tredecuplos[i+11]}-{tredecuplos[i+12]}"
+            tredecuplo = f"{fonemas.get(tredecuplos[i], '')}({tredecuplos[i]})-" \
+                          f"{fonemas.get(tredecuplos[i+1], '')}({tredecuplos[i+1]})-" \
+                          f"{fonemas.get(tredecuplos[i+2], '')}({tredecuplos[i+2]})-" \
+                          f"{fonemas.get(tredecuplos[i+3], '')}({tredecuplos[i+3]})-" \
+                          f"{fonemas.get(tredecuplos[i+4], '')}({tredecuplos[i+4]})-" \
+                          f"{fonemas.get(tredecuplos[i+5], '')}({tredecuplos[i+5]})-" \
+                          f"{fonemas.get(tredecuplos[i+6], '')}({tredecuplos[i+6]})-" \
+                          f"{fonemas.get(tredecuplos[i+7], '')}({tredecuplos[i+7]})-" \
+                          f"{fonemas.get(tredecuplos[i+8], '')}({tredecuplos[i+8]})-" \
+                          f"{fonemas.get(tredecuplos[i+9], '')}({tredecuplos[i+9]})-" \
+                          f"{fonemas.get(tredecuplos[i+10], '')}({tredecuplos[i+10]})-" \
+                          f"{fonemas.get(tredecuplos[i+11], '')}({tredecuplos[i+11]})-" \
+                          f"{fonemas.get(tredecuplos[i+12], '')}({tredecuplos[i+12]})"
             if len(tredecuplo) > 25:
                 contagem_tredecuplos[tredecuplo] = contagem_tredecuplos.get(tredecuplo, 0) + 1
 

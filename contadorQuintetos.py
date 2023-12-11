@@ -1,11 +1,19 @@
-# Define the file name
-file_name = "estelas.txt"
+# Define the file names
+estelas_file = "estelas.txt"
+phonetic_file = "tabelacaracteresfonemas.txt"
+
+# Read phonetic values from the phonetic file into a dictionary
+phonetic_values = {}
+with open(phonetic_file, 'r') as phonetic_file:
+    for line in phonetic_file:
+        character, phonetic_value = line.strip().split(':')
+        phonetic_values[character] = phonetic_value
 
 # Initialize a dictionary to store the count of quintets
 quintet_counts = {}
 
 # Read the file and process each line
-with open(file_name, 'r') as file:
+with open(estelas_file, 'r') as file:
     for line in file:
         # Remove newline characters
         cleaned_line = line.strip()
@@ -13,7 +21,11 @@ with open(file_name, 'r') as file:
         # Split the line into quintets and count occurrences
         quintets = cleaned_line.split('-')
         for i in range(len(quintets) - 4):
-            quintet = f"{quintets[i]}-{quintets[i+1]}-{quintets[i+2]}-{quintets[i+3]}-{quintets[i+4]}"
+            quintet = f"{phonetic_values.get(quintets[i], '')}({quintets[i]})-" \
+                      f"{phonetic_values.get(quintets[i+1], '')}({quintets[i+1]})-" \
+                      f"{phonetic_values.get(quintets[i+2], '')}({quintets[i+2]})-" \
+                      f"{phonetic_values.get(quintets[i+3], '')}({quintets[i+3]})-" \
+                      f"{phonetic_values.get(quintets[i+4], '')}({quintets[i+4]})"
             if len(quintet) > 9:
                 quintet_counts[quintet] = quintet_counts.get(quintet, 0) + 1
 

@@ -1,4 +1,4 @@
-def count_occurrences_from_file(file_path, separator, exclude_strings):
+def count_occurrences_from_file(file_path, separator, exclude_strings, phonetic_mapping):
     # Read the content of the file
     with open(file_path, 'r') as file:
         content = file.read()
@@ -13,10 +13,12 @@ def count_occurrences_from_file(file_path, separator, exclude_strings):
     for number in numbers:
         stripped_number = number.strip()  # Remove leading and trailing spaces
         if stripped_number and stripped_number != "\n" and stripped_number != "" and stripped_number not in exclude_strings:
-            if stripped_number in counts:
-                counts[stripped_number] += 1
+            # Replace the number with character plus its phonetic value
+            character_plus_phonetic = phonetic_mapping.get(stripped_number, stripped_number)
+            if character_plus_phonetic in counts:
+                counts[character_plus_phonetic] += 1
             else:
-                counts[stripped_number] = 1
+                counts[character_plus_phonetic] = 1
 
     return counts
 
@@ -24,7 +26,18 @@ def count_occurrences_from_file(file_path, separator, exclude_strings):
 file_path = "estelas.txt"
 separator = "-"  # Change this to the actual separator used in your file
 exclude_strings = ["<quebra de linha>", "<separação>", "??"]  # Add strings to exclude
-result = count_occurrences_from_file(file_path, separator, exclude_strings)
+
+# Create a dictionary to store character numbers and their corresponding phonetic values
+phonetic_mapping = {}
+with open("tabelacaracteresfonemas.txt", 'r', encoding='utf-8') as fonemas:
+    for line in fonemas:
+        parts = line.strip().split(':')
+        if len(parts) == 2:
+            character_number = parts[0].strip()
+            phonetic_value = parts[1].strip()
+            phonetic_mapping[character_number] = f"{character_number}-{phonetic_value}"
+
+result = count_occurrences_from_file(file_path, separator, exclude_strings, phonetic_mapping)
 
 # Calculate the total count
 total_count = sum(result.values())

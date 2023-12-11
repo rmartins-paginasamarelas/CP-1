@@ -4,6 +4,16 @@ nome_arquivo = "estelas.txt"
 # Inicializa um dicionário para armazenar a contagem de decetos
 contagem_decetos = {}
 
+# Create a dictionary to store character numbers and their corresponding phonetic values
+phonetic_mapping = {}
+with open("tabelacaracteresfonemas.txt", 'r', encoding='utf-8') as fonemas:
+    for line in fonemas:
+        parts = line.strip().split(':')
+        if len(parts) == 2:
+            character_number = parts[0].strip()
+            phonetic_value = parts[1].strip()
+            phonetic_mapping[character_number] = f"{character_number}({phonetic_value})"
+
 # Lê o arquivo e processa cada linha
 with open(nome_arquivo, 'r') as arquivo:
     for linha in arquivo:
@@ -13,7 +23,9 @@ with open(nome_arquivo, 'r') as arquivo:
         # Divide a linha em decetos e conta as ocorrências
         decetos = linha_limpa.split('-')
         for i in range(len(decetos) - 9):
-            deceto = f"{decetos[i]}-{decetos[i+1]}-{decetos[i+2]}-{decetos[i+3]}-{decetos[i+4]}-{decetos[i+5]}-{decetos[i+6]}-{decetos[i+7]}-{decetos[i+8]}-{decetos[i+9]}"
+            # Constrói o deceto com números e valores fonéticos
+            deceto = '-'.join(phonetic_mapping.get(dec, dec) for dec in decetos[i:i+10])
+
             if len(deceto) > 19:
                 contagem_decetos[deceto] = contagem_decetos.get(deceto, 0) + 1
 

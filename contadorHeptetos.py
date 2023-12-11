@@ -4,6 +4,16 @@ file_name = "estelas.txt"
 # Initialize a dictionary to store the count of heptets
 heptet_counts = {}
 
+# Create a dictionary to store character numbers and their corresponding phonetic values
+phonetic_mapping = {}
+with open("tabelacaracteresfonemas.txt", 'r', encoding='utf-8') as fonemas:
+    for line in fonemas:
+        parts = line.strip().split(':')
+        if len(parts) == 2:
+            character_number = parts[0].strip()
+            phonetic_value = parts[1].strip()
+            phonetic_mapping[character_number] = f"{character_number}({phonetic_value})"
+
 # Read the file and process each line
 with open(file_name, 'r') as file:
     for line in file:
@@ -13,7 +23,9 @@ with open(file_name, 'r') as file:
         # Split the line into heptets and count occurrences
         heptets = cleaned_line.split('-')
         for i in range(len(heptets) - 6):
-            heptet = f"{heptets[i]}-{heptets[i+1]}-{heptets[i+2]}-{heptets[i+3]}-{heptets[i+4]}-{heptets[i+5]}-{heptets[i+6]}"
+            # Construct the heptet with numbers and phonetic values
+            heptet = '-'.join(phonetic_mapping.get(hept, hept) for hept in heptets[i:i+7])
+
             if len(heptet) > 13:
                 heptet_counts[heptet] = heptet_counts.get(heptet, 0) + 1
 

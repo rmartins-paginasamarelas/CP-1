@@ -1,8 +1,16 @@
 # Define the file name
 file_name = "estelas.txt"
+file_name_fonemas = "tabelacaracteresfonemas.txt"
 
 # Initialize a dictionary to store the count of triplets
 triplet_counts = {}
+
+# Read the file of phonemes and store the values in a dictionary
+fonemas = {}
+with open(file_name_fonemas, 'r') as file_fonemas:
+    for line in file_fonemas:
+        numero, fonema = line.strip().split(':')
+        fonemas[numero] = fonema
 
 # Read the file and process each line
 with open(file_name, 'r') as file:
@@ -13,7 +21,9 @@ with open(file_name, 'r') as file:
         # Split the line into triplets and count occurrences
         triplets = cleaned_line.split('-')
         for i in range(len(triplets) - 2):
-            triplet = f"{triplets[i]}-{triplets[i+1]}-{triplets[i+2]}"
+            triplet = f"{fonemas.get(triplets[i], '')}({triplets[i]})-" \
+                      f"{fonemas.get(triplets[i+1], '')}({triplets[i+1]})-" \
+                      f"{fonemas.get(triplets[i+2], '')}({triplets[i+2]})"
             if len(triplet) > 5:
                 triplet_counts[triplet] = triplet_counts.get(triplet, 0) + 1
 
