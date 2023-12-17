@@ -45,9 +45,14 @@ total_count = sum(result.values())
 # Sort the result by occurrences in descending order
 sorted_result = sorted(result.items(), key=lambda x: x[1], reverse=True)
 
-print("\nContagem ordenada de frequência de caracteres em todas as estelas:")
+output_file_path = "output_result_count_chars_stelae.txt"  # Change this to the desired output file path
 
-# Print the sorted result with relative percentage
-for number, count in sorted_result:
-    percentage = (count / total_count) * 100 if total_count != 0 else 0
-    print(f"{number}: {count} occurrences ({percentage:.2f}%)")
+with open(output_file_path, 'w', encoding='utf-8') as output_file:
+    print("\nContagem ordenada de frequência de caracteres em todas as estelas:", file=output_file)
+
+    # Print the sorted result with relative percentage
+    for number, count in sorted_result:
+        percentage = (count / total_count) * 100 if total_count != 0 else 0
+        print(f"{number}: {count} occurrences ({percentage:.2f}%)", file=output_file)
+
+print(f"Result has been written to {output_file_path}")
