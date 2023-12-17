@@ -53,6 +53,6 @@ with open(output_file_path, 'w', encoding='utf-8') as output_file:
     # Print the sorted result with relative percentage
     for number, count in sorted_result:
         percentage = (count / total_count) * 100 if total_count != 0 else 0
-        print(f"{number}: {count} occurrences ({percentage:.2f}%)", file=output_file)
+        print(f"{number}: {count} ocorrências ({percentage:.2f}%)", file=output_file)
 
 print(f"Result has been written to {output_file_path}")
