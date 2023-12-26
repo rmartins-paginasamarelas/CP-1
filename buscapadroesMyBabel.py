@@ -10,7 +10,7 @@ def search_word_in_file_in_second_column(word, file_path):
 
 
 # Specify the file path
-file_path = 'mybabel.txt'  # Change this to the actual file path
+file_path = 'mybabelLinguasSelectasPalavrasFunerarias.txt'  # Change this to the actual file path
 
 while True:
     # Get user input for the word to search
