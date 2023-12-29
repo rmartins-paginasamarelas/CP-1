@@ -90,36 +90,6 @@ antigoeuropeu	vek	curvo, p 208
 antigoeuropeu	vel	mata, p 227
 antigoeuropeu	ver	água, p 238
 antigoeuropeu	vis	corrente de água, p 209
-aquitano	andere	np feminino
-aquitano	ausci	tribo aquitana
-aquitano	baeserte	np
-aquitano	belexconis	np
-aquitano	cison	np masculino
-aquitano	dannadinn	np
-aquitano	elimberris	nl
-aquitano	ennebox	np
-aquitano	erg	teónimo
-aquitano	hanna	np masculino
-aquitano	harbelex	np
-aquitano	illurberrixo	np
-aquitano	laurco	np
-aquitano	nescato	np feminino
-aquitano	sembe	np masculino
-aquitano	senius	np masculino
-aquitano	talscon	np
-aquitano	tarbelli	tribo
-asturegalaico	abienus	antropónimo de zoelas
-asturegalaico	arrenus	antropónimo
-asturegalaico	bloena	antropónimos, 4 em portugal
-asturegalaico	bulenus	antropónimo, 3 em lugo
-asturegalaico	casiena	antropónimo, zamora
-asturegalaico	catuenus	antropónimo masculino freixo de numão e zamora
-asturegalaico	cilenus	antropónimo braga
-asturegalaico	Ibdoena	antropónimo lamego
-asturegalaico	Laboena	antropónimo pinovelho
-asturegalaico	Meiduena	antropónimo cea de órbigo
-asturegalaico	Meiduenus	antropónimo lamego
-asturegalaico	Urtienus	antropónimo
 baleares	talayots	torres de vigia nas ilhas baleares
 castelhano	perro	cão, uma palavra de origem desconhecida talvez mediterrânica
 celtibero	abulo	np
@@ -904,6 +874,7 @@ ibérico	advgep	novas notas de onomástica hispânica pré-romana:nome turdetano
 ibérico	aeco	sufixo onomástico peninsular
 ibérico	aernus	divindade
 ibérico	afatone	divindade
+ibérico ager    elemento onomástico
 ibérico	agietigi	crónica de onomástica paleo-hispânica (5):placa de chumbo. el tossal de la balaguera (la pobla tomesa, castelló). np
 ibérico	agirnes	np
 ibérico	agirseni	crónica de onomástica paleo-hispânica (4) antónio marques de faria:genitivo. np
@@ -928,7 +899,6 @@ ibérico	aidurgi	novas notas de onomástica hispânica pré-romana:pratos de pra
 ibérico	aiduurgi	antropónimo
 ibérico	aidvar	antropónimo
 ibérico	aitu	elemento onomástico ibérico
-ibérico	aiTu	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	aiTuar	subsídios para o estudo da antroponímia ibérica:np
 ibérico	aituar	subsídios para o estudo da antroponímia ibérica:np
 ibérico	aituarki	subsídios para o estudo da antroponímia ibérica:np
@@ -989,7 +959,7 @@ ibérico	antor	subsídios para o estudo da antroponímia ibérica:np
 ibérico	antuakoi	crónica de onomástica paleo-hispânica (5):np de magistrado de obulco
 ibérico	antullus	crónica de onomástica paleo-hispânica (5):np
 ibérico	aponianicus	deus aponianicus poliscinius
-ibérico	ar	subsídios para o estudo da antroponímia ibérica:sufixo possessivo. morfema que surge posposto a nnp. Uma forma de genitivo ou de dativo.
+ibérico	ar	subsídios para o estudo da antroponímia ibérica:sufixo possessivo. Sufixo e morfema que surge posposto a nnp. Uma forma de genitivo ou de dativo. possessão.
 ibérico	aracus	deus aracus aranius niceus, nome de pessoa no nórico e na britânia, arakos em homero
 ibérico	arama	elemento onomástico
 ibérico	aran 	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:elemento onomástico
@@ -1005,13 +975,13 @@ ibérico	arbiscar	antropónimo
 ibérico	arbiscar	novas notas de onomástica hispânica pré-romana:tábua de bronze. np
 ibérico	arbiskar	np ibérico
 ibérico	arentius	divindade, com nome de influência celta
+ibérico aretake equivale a "hic situs est", também ocorre como aretaki (are take as akin)
 ibérico	argibes	nome próprio
 ibérico	arke	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	arkebor	np
 ibérico	arker	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	arketurki	arketurki, obra 1, p126, nl
 ibérico	arki	np em marca de propriedade em peças de olaria.
-ibérico	arki	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	arkibes	subsídios para o estudo da antroponímia ibérica:np
 ibérico	arkir	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	arkisosin	np ibérico
@@ -1057,7 +1027,6 @@ ibérico	atin	novas achegas para o estudo da onomástica ibérica e turdetana. a
 ibérico	atinbelaur	np ibérico
 ibérico	atinbeles	antropónimo
 ibérico	atinbete	subsídios para o estudo da antroponímia ibérica:np
-ibérico	atinbinmr	np em marca de propriedade em peças de olaria.
 ibérico	atinbinmr	np em marca de propriedade em peças de olaria.
 ibérico	atinbur	subsídios para o estudo da antroponímia ibérica:np
 ibérico	atinius	subsídios para o estudo da antroponímia ibérica:np de iltubeir
@@ -1127,6 +1096,7 @@ ibérico	barka	subsídios para o estudo da antroponímia ibérica:np
 ibérico	barkeaker	subsídios para o estudo da antroponímia ibérica:np
 ibérico	barkeno	cidade de Barcelona
 ibérico	barsur	novas notas de onomástica hispânica pré-romana:np
+ibérico bartas  elemento onomástico
 ibérico	bartastolor	subsídios para o estudo da antroponímia ibérica:np
 ibérico	bartildun	crónica de onomástica paleo-hispânica (1):placa de bronze de botorrita. contém o elemento ildun
 ibérico	bas	crónica de onomástica paleo-hispânica (5):raro formante inicial ibérico
@@ -1199,7 +1169,6 @@ ibérico	belnes	crónica de onomástica paleo-hispânica (5):marca de ânfora
 ibérico	belordin	algumas notas de onomástica ibérica. antónio marques de faria:placa de chumbo. sierra de gádor. no
 ibérico	bels	algumas notas de onomástica ibérica. antónio marques de faria:forma onomástica
 ibérico	belsadinicor	crónica de onomástica paleo-hispânica (5):np com três segmentos dissilábicos
-ibérico	belsadinicor	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:mosaic de la alcudia de elche. np trimembre
 ibérico	belsatin	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np
 ibérico	belse	novas notas de onomástica hispânica pré-romana:topónimo atestado em dracmas ibéricas do século ii a. c.
 ibérico	belsecuai	crónica de onomástica paleo-hispânica (4) antónio marques de faria:etnónimo testemunhado em moedas
@@ -1286,6 +1255,7 @@ ibérico	biurtibes	algumas notas de onomástica ibérica. antónio marques de fa
 ibérico	biurtigi	crónica de onomástica paleo-hispânica (5):np
 ibérico	biurtikis	np
 ibérico	biurtilaur	crónica de onomástica paleo-hispânica (5):np com três segmentos dissilábicos
+ibérico bivr    elemento onomástico
 ibérico	bo	algumas notas de onomástica ibérica. antónio marques de faria:elemento onomástico
 ibérico	bocalsor	algumas notas de onomástica ibérica. antónio marques de faria:np
 ibérico	bodo	crónica de onomástica paleo-hispânica (1):cognomen de dois magistrados de lascuta
@@ -1351,7 +1321,6 @@ ibérico	cares 	crónica de onomástica paleo-hispânica (4) antónio marques de
 ibérico	caresban	np ibérico
 ibérico	caresbobigir	crónica de onomástica paleo-hispânica (5):np com três segmentos dissilábicos
 ibérico	caresbobigir	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np
-ibérico	caresbobigir	np ibérico
 ibérico	caresir	algumas notas de onomástica ibérica. antónio marques de faria:np
 ibérico	caresir	antropónimo
 ibérico	caressor	np ibérico
@@ -1377,7 +1346,6 @@ ibérico	cese	crónica de onomástica paleo-hispânica (5):nl
 ibérico	cesecu	crónica de onomástica paleo-hispânica (4) antónio marques de faria:etnónimo testemunhado em moedas
 ibérico	chiluasurgun	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np conhecido na andaluzia
 ibérico	co	algumas notas de onomástica ibérica. antónio marques de faria:sufixo nominal ibérico. muito raro em nnp
-ibérico	co	sufixo onomástico ibérico
 ibérico	cobesir	crónica de onomástica paleo-hispânica (5):np com três segmentos dissilábicos
 ibérico	conipr	np ibérico
 ibérico	cormenzana	apelido navarro de origem toponímica, np
@@ -1397,7 +1365,6 @@ ibérico	din	novas achegas para o estudo da onomástica ibérica e turdetana. an
 ibérico	dipo	crónica de onomástica paleo-hispânica (5):moedas da cidade de dipo (localização indeterminada)
 ibérico	dueidiCeildun	crónica de onomástica paleo-hispânica (1):nnp
 ibérico	e	novas notas de onomástica hispânica pré-romana:sufixo de dativo ibérico. sufixo toponímico ibérico. sufixo antroponímico, presente em becu-er + suf. e. Surge também como prefixo a verbos ibéricos.
-ibérico	e	sufixo dativo
 ibérico	eban	crónica de onomástica paleo-hispânica (5):"surge na forma np + np + eban. velaza: filius. untermann, pérez orozco, rodríguez ramos: ""coerauit"" ou ""curauuit"""
 ibérico	ebanen	"faleceu"
 ibérico	ebar 	subsídios para o estudo da antroponímia ibérica:elemento onomástico
@@ -1423,6 +1390,7 @@ ibérico	eiCesesbiur	crónica de onomástica paleo-hispânica (5):np com três s
 ibérico	eisbur	subsídios para o estudo da antroponímia ibérica:np
 ibérico	ekar	elemento onomástico
 ibérico	ekarbilos	np
+ibérico ekiar ocorre objectos artíticos frequentemente com o sufixo -te. Verbo. Pode significar "fazer"
 ibérico	elandorian	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np
 ibérico	elantorian	subsídios para o estudo da antroponímia ibérica:np
 ibérico	eldu	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np
@@ -1431,7 +1399,7 @@ ibérico	elenus	antropónimo ibérico
 ibérico	elerbas	subsídios para o estudo da antroponímia ibérica:"""nome do ibero mencionado em segundo lugar na oitava linha do chumbo greco-etrusco de pech maho"" a.m.faria"
 ibérico	eliocroca	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:nl
 ibérico	elsairlacos	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np
-ibérico	en	sufixo genitivo
+ibérico	en	sufixo genitivo. Marca possessão.
 ibérico	enasakin	subsídios para o estudo da antroponímia ibérica:np
 ibérico	enekes	subsídios para o estudo da antroponímia ibérica:np
 ibérico	eneseltuko	crónica de onomástica paleo-hispânica (5):np de magistrado de obulco
@@ -1535,13 +1503,13 @@ ibérico	ikale	np
 ibérico	ikalens	ikalesken, obra 1, p76, nl
 ibérico	ikalensken	ikalesken, obra 1, p77, nl
 ibérico	ikalesken	ikalesken, obra 1, p74, nl
-ibérico	ike	elemento onomástico
 ibérico	ike	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	ikeatin	np em marca de propriedade em peças de olaria.
 ibérico	iker	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	ikor	elemento onomástico
 ibérico	ikorbeles	sagunto, obra 1, p55, nl. Nome de magistrado
 ibérico	il	crónica de onomástica paleo-hispânica (5):"prefixo indicativo de ""cidade"" (alícia canto, 1999)"
+ibérico iliars cidade
 ibérico	ilberir	ilberir, obra 1, p73, nl
 ibérico	ilbikon	subsídios para o estudo da antroponímia ibérica:np
 ibérico	ildicira	algumas notas de onomástica ibérica. antónio marques de faria:nl
@@ -1604,13 +1572,11 @@ ibérico	iltirkes	iltirkesken, obra 1, p131, nl
 ibérico	iltirkesalir	nome étnico dos ilercavones
 ibérico	iltirkesken	iltirkesken, obra 1, p131, nl
 ibérico	iltirkis	subsídios para o estudo da antroponímia ibérica:np
-ibérico	iltirsar	np
 ibérico	iltirsar	subsídios para o estudo da antroponímia ibérica:np
 ibérico	iltirta	ilerda, obra 1, p88, nl. Cidade de Lérida
 ibérico	iltirtar	emporion, obra 1, p8, nl
 ibérico	iltirtasalirban	ilerda, obra 1, p88, nl
 ibérico	iltirteker	subsídios para o estudo da antroponímia ibérica:np
-ibérico	iltirtiker	np
 ibérico	iltirtiker	subsídios para o estudo da antroponímia ibérica:np
 ibérico	iltu 	subsídios para o estudo da antroponímia ibérica:"talvez ""cidade"" no léxico ibérico"
 ibérico	iltuBeiR	subsídios para o estudo da antroponímia ibérica:topónimo de duvidosa existência
@@ -1723,6 +1689,7 @@ ibérico	koniltir	subsídios para o estudo da antroponímia ibérica:np
 ibérico	konnoba	antropónimo registado no sul da península
 ibérico	kor	subsídios para o estudo da antroponímia ibérica:elemento antroponímico
 ibérico	korokine	subsídios para o estudo da antroponímia ibérica:np
+ibérico ku  Sufixo que indica o ablativo. Talvez ligado ao basco -ko
 ibérico	kueliokos	kueliokos, obra 2, p169, nl
 ibérico	kules	elemento onomástico
 ibérico	kulesir	subsídios para o estudo da antroponímia ibérica:np
@@ -1956,7 +1923,6 @@ ibérico	saiti	novas achegas para o estudo da onomástica ibérica e turdetana. 
 ibérico	sakal	subsídios para o estudo da antroponímia ibérica:elemento antroponímico
 ibérico	sakalisker	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sakar	elemento onomástico
-ibérico	saKaR 	subsídios para o estudo da antroponímia ibérica:elemento onomástico
 ibérico	sakaratin	np
 ibérico	sakarbas	subsídios para o estudo da antroponímia ibérica:np
 ibérico	saKaRna	subsídios para o estudo da antroponímia ibérica:provável np ibérico
@@ -1985,13 +1951,13 @@ ibérico	saltkitei	subsídios para o estudo da antroponímia ibérica:np
 ibérico	saltuie	caesaugusta, obra 1, p92, nl
 ibérico	saltukiler	subsídios para o estudo da antroponímia ibérica:np
 ibérico	samala	samala, obra 1, p146, nl
+ibérico sani    elemento onomástico
 ibérico	sanibar	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sanibeir	algumas notas de onomástica ibérica. antónio marques de faria:np
 ibérico	sanibelser	novas notas de onomástica hispânica pré-romana:np
 ibérico	saniko	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sapo	sapo
-ibérico	sar	elemento onomástico
-ibérico	SaR	novas notas de onomástica hispânica pré-romana:elemento onomástico
+ibérico	SaRrnovas notas de onomástica hispânica pré-romana:elemento onomástico
 ibérico	sarna	sarna
 ibérico	sarralia	alface
 ibérico	se	crónica de onomástica paleo-hispânica (4) antónio marques de faria:sufixo ibérico constante em vários nno femininos. Surge também como prefixo a verbos ibéricos.
@@ -2032,7 +1998,6 @@ ibérico	setal	subsídios para o estudo da antroponímia ibérica:np
 ibérico	setalike	subsídios para o estudo da antroponímia ibérica:np
 ibérico	seteis	seteisken, obra 2, p158, nl
 ibérico	seteisken	seteisken, obra 2, p158, nl. Berço dos Sedetani
-ibérico	seteisken	subsídios para o estudo da antroponímia ibérica:np
 ibérico	setekon	subsídios para o estudo da antroponímia ibérica:np
 ibérico	siaco	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:lápide de sádaba. np.
 ibérico	sibi 	novas notas de onomástica hispânica pré-romana:elemento onomástico
@@ -2041,11 +2006,11 @@ ibérico	sibitta	novas notas de onomástica hispânica pré-romana:placa de már
 ibérico	sicarbi	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:moeda. ceca indeterminada. np
 ibérico	sice	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:elemento onomástico
 ibérico	sigara	crónica de onomástica paleo-hispânica (1):moeda. np
-ibérico	sigara	nnl ibérico
 ibérico	sike	elemento onomástico
 ibérico	sikebones	np
 ibérico	sikil	subsídios para o estudo da antroponímia ibérica:np
 ibérico	silibor	subsídios para o estudo da antroponímia ibérica:np
+ibérico siltar ou seltar estela
 ibérico	siltibor	subsídios para o estudo da antroponímia ibérica:np
 ibérico	silur	crónica de onomástica paleo-hispânica (1):cognomen em inscrição lapidar desaparecida de albánchez (jaén)
 ibérico	sinecunsir	crónica de onomástica paleo-hispânica (5):np com três segmentos dissilábicos
@@ -2075,11 +2040,9 @@ ibérico	sorseiter	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sortike	np
 ibérico	sosimilus	np
 ibérico	sosin	elemento onomástico
-ibérico	sosin	elemento onomástico
 ibérico	sosinaden	np
 ibérico	sosinatin	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sosinbels	algumas notas de onomástica ibérica. antónio marques de faria:np
-ibérico	sosinbels	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sosinbilos	subsídios para o estudo da antroponímia ibérica:np
 ibérico	sosines	palavra indeterminada
 ibérico	sosinestani	nome ibérico
@@ -2102,7 +2065,6 @@ ibérico	taneig	algumas notas de onomástica ibérica. antónio marques de faria
 ibérico	tanekisker	subsídios para o estudo da antroponímia ibérica:np
 ibérico	taners	subsídios para o estudo da antroponímia ibérica:np
 ibérico	tanusia	tanusia, obra 1, p146, nl
-ibérico	tar	elemento onomástico
 ibérico	tar	subsídios para o estudo da antroponímia ibérica:elemento antroponímico
 ibérico	tarakon	cidade de Tarragona
 ibérico	tarban 	crónica de onomástica paleo-hispânica (4) antónio marques de faria:elemento onomástico
@@ -2114,12 +2076,12 @@ ibérico	tartigar	novas notas de onomástica hispânica pré-romana:placa de cal
 ibérico	tartin	crónica de onomástica paleo-hispânica (4) antónio marques de faria:elemento onomástico
 ibérico	tartin	elemento onomástico
 ibérico	tas	crónica de onomástica paleo-hispânica (1):elemento onomástico
-ibérico	tas	elemento onomástico
 ibérico	taskaseker	subsídios para o estudo da antroponímia ibérica:np
 ibérico	tautin	elemento onomástico\
 ibérico	tautinkon	np
 ibérico	tautintarban	crónica de onomástica paleo-hispânica (4) antónio marques de faria:np
 ibérico	te	“de” / “pelo, ao, por”: indicando o agente da acção e o remetente de um documento. Será um agentivo ou uma forma de ablativo.
+ibérico teban filho ou filha
 ibérico	teciailcos	novas achegas para o estudo da onomástica ibérica e turdetana. antónio marques de faria:np
 ibérico	teitabas	subsídios para o estudo da antroponímia ibérica:np
 ibérico	teitiakos	teitiakos, obra 2, p177, nl
@@ -2137,7 +2099,6 @@ ibérico	tiberi	emporion, obra 1, p9, nl
 ibérico	tibes 	algumas notas de onomástica ibérica. antónio marques de faria:elemento onomástico
 ibérico	tibesbir	algumas notas de onomástica ibérica. antónio marques de faria:np
 ibérico	tibesdar	algumas notas de onomástica ibérica. antónio marques de faria:placa de chumbo de sierra de gádor.np
-ibérico	tibesdar	np ibérico
 ibérico	tigen	crónica de onomástica paleo-hispânica (4) antónio marques de faria:elemento onomástico
 ibérico	tiger	crónica de onomástica paleo-hispânica (4) antónio marques de faria:elemento onomástico
 ibérico	tigi	crónica de onomástica paleo-hispânica (5):elemento onomástico ibérico
@@ -3766,7 +3727,7 @@ topónimo	oesyme	nome de cidade trácia, nl
 topónimo	ogetistyron	cidade junto ao rio hebro, na trácia, nl
 topónimo	olba	huelva, nl
 topónimo	Olisipo	lisboa, nl
-topónimo	olisipo	lisboa, nl
+topónimo	olisippo	lisboa, nl
 topónimo	Onoba	niebla huelva, nl
 topónimo	ossonoba	faro, nl
 topónimo	ossumo	perto de lisboa, nl
@@ -3826,3 +3787,133 @@ unilíngua	par	voar
 unilíngua	put	vulva
 unilíngua	sum	cabelo
 unilíngua	tik	dedo
+ibérico iltirarker  np
+ibérico iltirbas    np
+ibérico iltirtiker  np
+ibérico tursiltir   np
+ibérico baiseiltir  np
+ibérico bekoniltir  np
+ibérico abar elemento onomastico
+ibérico aibe elemento onomastico
+ibérico aile elemento onomastico
+ibérico ain elemento onomastico
+ibérico aitu elemento onomastico
+ibérico aiun elemento onomastico
+ibérico aker elemento onomastico
+ibérico albe elemento onomastico
+ibérico alor elemento onomastico
+ibérico an elemento onomastico
+ibérico anar elemento onomastico
+ibérico arbi elemento onomastico
+ibérico arki elemento onomastico
+ibérico ars elemento onomastico
+ibérico asai elemento onomastico
+ibérico aster elemento onomastico
+ibérico ata elemento onomastico
+ibérico atin elemento onomastico
+ibérico atun elemento onomastico
+ibérico aunin elemento onomastico
+ibérico aur elemento onomastico
+ibérico austin elemento onomastico
+ibérico baiser elemento onomastico
+ibérico balar elemento onomastico
+ibérico balke elemento onomastico
+ibérico bartas elemento onomastico
+ibérico bas elemento onomastico
+ibérico bastok elemento onomastico
+ibérico bekon elemento onomastico
+ibérico belaur elemento onomastico
+ibérico beleś elemento onomastico
+ibérico bels elemento onomastico
+ibérico bene elemento onomastico
+ibérico ber elemento onomastico
+ibérico beri elemento onomastico
+ibérico beron elemento onomastico
+ibérico betan elemento onomastico
+ibérico betin elemento onomastico
+ibérico bikir elemento onomastico
+ibérico bilos elemento onomastico
+ibérico bin elemento onomastico
+ibérico bir elemento onomastico
+ibérico bitu elemento onomastico
+ibérico biur elemento onomastico
+ibérico bolai elemento onomastico
+ibérico bor elemento onomastico
+ibérico bos elemento onomastico
+ibérico boton elemento onomastico
+ibérico ekes elemento onomastico
+ibérico ekar elemento onomastico
+ibérico eler elemento onomastico
+ibérico ena elemento onomastico
+ibérico esto elemento onomastico
+ibérico eten elemento onomastico
+ibérico eter elemento onomastico
+ibérico iar elemento onomastico
+ibérico iaun elemento onomastico
+ibérico ibes elemento onomastico
+ibérico ibeis elemento onomastico
+ibérico ike elemento onomastico
+ibérico ikor elemento onomastico
+ibérico iltir elemento onomastico
+ibérico iltur elemento onomastico
+ibérico inte elemento onomastico
+ibérico isker elemento onomastico
+ibérico istan elemento onomastico
+ibérico iunstir elemento onomastico
+ibérico iur elemento onomastico
+ibérico kaisur elemento onomastico
+ibérico kaker elemento onomastico
+ibérico kaltur elemento onomastico
+ibérico kani elemento onomastico
+ibérico kares elemento onomastico
+ibérico karko elemento onomastico
+ibérico katu elemento onomastico
+ibérico kere elemento onomastico
+ibérico kibas elemento onomastico
+ibérico kine elemento onomastico
+ibérico kitar elemento onomastico
+ibérico kon elemento onomastico
+ibérico koro elemento onomastico
+ibérico kors elemento onomastico
+ibérico kules elemento onomastico
+ibérico kurtar elemento onomastico
+ibérico lako elemento onomastico
+ibérico laur elemento onomastico
+ibérico leis elemento onomastico
+ibérico lor elemento onomastico
+ibérico lusban elemento onomastico
+ibérico mo  parte da fórmula "nascido cónio". Talvez "de" ou "dos"
+ibérico nalbe elemento onomastico
+ibérico neitin elemento onomastico
+ibérico nerse elemento onomastico
+ibérico nes elemento onomastico
+ibérico nis elemento onomastico
+ibérico nios elemento onomastico
+ibérico ortin elemento onomastico
+ibérico sakar elemento onomastico
+ibérico sakin elemento onomastico
+ibérico saltu elemento onomastico
+ibérico sani elemento onomastico
+ibérico sar elemento onomastico
+ibérico seken elemento onomastico
+ibérico selki elemento onomastico
+ibérico sike elemento onomast
+ibérico erder
+ibérico erdi-	"half"		erdi "half"
+ibérico ban	"one"	*badV / *bade?	bat "one" (but cf -n final compound forms such as bana "one each")
+ibérico bi / bin	"two"	biga	bi (older biga) "two" (also cf -n final compound forms such as bina "two each")
+ibérico irur	"three"	hirur	hiru(r) "three"
+ibérico laur	"four"	laur	lau(r) "four"
+ibérico borste / bors	"five"	bortz / *bortzV?	bost (older bortz) "five"
+ibérico sei	"six"		sei "six"
+ibérico sisbi	"seven"		zazpi "seven"
+ibérico sorse	"eight"		zortzi "eight"
+ibérico abar / bar	"ten"	*[h]anbar ?	hamar "ten"
+ibérico orkei	"twenty"		hogei "twenty"
+ibérico abar-ke-bi	hama.bi	"twelve"	"10-2"
+ibérico abar-ke-borste	hama.bost	"fifteen"	"10-5"
+ibérico abar-sei	hama.sei	"sixteen"	"10-6"
+ibérico orkei-irur	hogei.ta.hiru	"twenty three"	"20 and 3"
+ibérico orkei-ke-laur   hogei.ta.lau	"twenty four"	"20 and 4"
+ibérico orkei-abar  hogei.ta.(ha)mar	"thirty"	"20 and 10"
+ibérico orkei-(a)bar-ban    hogei.ta.(ha)maika	"thirty one"	"20 and 11"
