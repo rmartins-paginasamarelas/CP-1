@@ -9,12 +9,15 @@ def search_in_file(file_path, search_string, search_type):
 
     results = []
 
+    # Remove parentheses and convert to lowercase
+    search_string = search_string.replace('(', '').replace(')', '').lower()
+
     for line in lines:
         columns = line.strip().split('\t')
         if len(columns) > 1:
             second_column_words = columns[1].split()
             if second_column_words:
-                second_word = second_column_words[0]  # Select the first word from the second column
+                second_word = second_column_words[0].lower()  # Convert to lowercase
                 if search_type == 1:
                     # Search only in the first characters of the second word
                     if second_word.startswith(search_string):
@@ -28,7 +31,7 @@ def search_in_file(file_path, search_string, search_type):
                     if second_word.endswith(search_string):
                         results.append(line.strip())
                 else:
-                    print("Invalid search type. Please enter 1, 2, or 3.")
+                    print("Tipo de busca inválido. Use 1, 2 ou 3 !")
 
     return results
 
@@ -37,14 +40,14 @@ file_path = 'mybabelLinguasSelectasPalavrasFunerariasTabs.txt'  # Change this to
 
 while True:
     # Get user input for the search string and type
-    search_string = input("Enter the search string (enter '0' to exit): ")
+    search_string = input("Introduza a string procurada (ou '0' para sair do programa): ")
 
     # Check if the user wants to exit
     if search_string == '0':
-        print("Exiting the program.")
+        print("Saindo do programa.")
         break
 
-    search_type = int(input("Enter the search type (1 for prefix/tema, 2 for in entre palavras, 3 for sufixo/terminação): "))
+    search_type = int(input("Que tipo de busca? (1 prefixo/tema, 2 meio, 3 sufixo/terminação): "))
 
     # Clear the screen before displaying results
     clear_screen()
@@ -53,8 +56,8 @@ while True:
     results = search_in_file(file_path, search_string, search_type)
 
     if results:
-        print("Search results:")
+        print("Resultados da procura:")
         for result in results:
             print(result)
     else:
-        print("No results found.")
+        print("Nada encontrado.")
