@@ -1,3 +1,4 @@
+
 Contagem ordenada de frequência de caracteres em todas as estelas:
 02-a: 406 ocorrências (16.85%)
 03-e: 277 ocorrências (11.50%)
